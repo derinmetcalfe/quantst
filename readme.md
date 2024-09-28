@@ -4,18 +4,6 @@ An intuitive and efficient web application for pricing European call and put opt
 application provides insightful visualisations and leverages advanced computational optimisations to deliver fast and
 accurate results.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Models Implemented](#models-implemented)
-- [Optimisations](#optimisations)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Visualisation](#visualisation)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 This application is designed to assist investors, traders, and financial analysts in pricing European options using
