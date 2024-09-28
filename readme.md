@@ -1,7 +1,7 @@
 # Option Pricing Application
 
 An intuitive and efficient web application for pricing European call and put options using various financial models. The
-application provides insightful visualizations and leverages advanced computational optimizations to deliver fast and
+application provides insightful visualisations and leverages advanced computational optimisations to deliver fast and
 accurate results.
 
 ## Table of Contents
@@ -9,10 +9,10 @@ accurate results.
 - [Introduction](#introduction)
 - [Features](#features)
 - [Models Implemented](#models-implemented)
-- [Optimizations](#optimizations)
+- [Optimisations](#optimisations)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Visualization](#visualization)
+- [Visualisation](#visualisation)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -25,18 +25,18 @@ three fundamental models:
 - **Binomial Tree Model**
 - **Monte Carlo Simulation**
 
-By integrating these models into a user-friendly Streamlit app, users can input parameters, visualize data, and obtain
+By integrating these models into a user-friendly Streamlit app, users can input parameters, visualise data, and obtain
 option prices efficiently.
 
 ## Features
 
 - **Multiple Pricing Models**: Choose from Black-Scholes, Binomial Tree, or Monte Carlo Simulation to price options.
 - **Real-Time Data Retrieval**: Fetches the latest historical stock data for accurate pricing.
-- **Interactive Visualizations**:
+- **Interactive Visualisations**:
     - Historical adjusted closing price of the selected stock.
     - Simulated price paths from the Monte Carlo Simulation.
 - **User-Friendly Interface**: Intuitive input fields and sliders for setting parameters.
-- **Optimized Performance**: Leveraging computational optimizations for fast calculations.
+- **Optimised Performance**: Leveraging computational optimisations for fast calculations.
 
 ## Models Implemented
 
@@ -54,9 +54,9 @@ A discrete-time model for option pricing that constructs a binomial tree of poss
 A statistical method that uses random sampling to simulate possible price paths of the underlying asset to estimate the
 option price.
 
-## Optimizations
+## Optimisations
 
-Significant optimizations have been incorporated to enhance performance and efficiency:
+Significant optimisations have been incorporated to enhance performance and efficiency:
 
 1. **Precomputed Variables in Models**: Critical components such as \( d1 \) and \( d2 \) in the Black-Scholes Model are
    calculated in advance to eliminate redundant computations.
@@ -64,10 +64,10 @@ Significant optimizations have been incorporated to enhance performance and effi
 2. **Direct Simulation of Terminal Prices**: In the Monte Carlo Simulation, terminal asset prices are simulated
    directly, reducing computational overhead by avoiding full path simulations for European options.
 
-3. **Memory Optimization in Binomial Tree Model**: Memory usage is significantly reduced by using minimal arrays to
+3. **Memory Optimisation in Binomial Tree Model**: Memory usage is significantly reduced by using minimal arrays to
    store option prices during backward induction, instead of constructing the entire binomial tree.
 
-4. **Vectorized Operations with NumPy**: Utilized NumPy's vectorized operations across all models for efficient
+4. **Vectorised Operations with NumPy**: Utilised NumPy's vectorised operations across all models for efficient
    numerical computations, enhancing execution speed.
 
 5. **Unified Pricing Method**: The base `OptionPricingModel` class now requires only a single abstract
