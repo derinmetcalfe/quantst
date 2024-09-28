@@ -1,8 +1,6 @@
-# Third party imports
 import numpy as np
-# Local package imports
-from .base import OptionPricingModel, OPTION_TYPE
 import matplotlib.pyplot as plt
+from .base import OptionPricingModel, OPTION_TYPE
 
 
 class MonteCarloPricing(OptionPricingModel):

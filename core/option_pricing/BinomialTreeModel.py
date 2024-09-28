@@ -1,8 +1,4 @@
-# Third party imports
 import numpy as np
-from scipy.stats import norm
-
-# Local package imports
 from .base import OptionPricingModel, OPTION_TYPE
 
 
