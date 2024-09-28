@@ -111,8 +111,8 @@ To start the Streamlit application, run:
     streamlit run streamlit_app.py
 
 This will launch the app in your default web browser.
+<br>
 
 <hr>
-<br>
 
 **Disclaimer:** This application is for educational and informational purposes only and should not be considered financial advice. Always consult with a qualified financial professional before making investment decisions.
