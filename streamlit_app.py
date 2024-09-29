@@ -3,8 +3,9 @@ from datetime import datetime, timedelta
 
 import streamlit as st
 
-from core.option_pricing import BlackScholesModel, MonteCarloPricing, BinomialTreeModel, Ticker
-from core.option_pricing import OPTION_TYPE
+from core.option_pricing import BlackScholesModel, MonteCarloPricing, BinomialTreeModel
+from core.option_pricing.base import OPTION_TYPE
+from core.util.ticker import Ticker
 
 
 @st.cache_data

@@ -52,7 +52,7 @@ Significant optimisations have been incorporated to enhance performance and effi
 2. **Direct Simulation of Terminal Prices**: In the Monte Carlo Simulation, terminal asset prices are simulated
    directly, reducing computational overhead by avoiding full path simulations for European options.
 
-3. **Memory Optimisation in Binomial Tree Model**: Memory usage is significantly reduced by using minimal arrays to
+3. **Memory Optimisation in Binomial Tree Model** : Memory usage is significantly reduced by using minimal arrays to
    store option prices during backward induction, instead of constructing the entire binomial tree.
 
 4. **Vectorised Operations with NumPy**: Utilised NumPy's vectorised operations across all models for efficient

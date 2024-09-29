@@ -6,7 +6,8 @@ Script testing functionalities of option_pricing package:
 - Testing Monte Carlo Simulation for option pricing   
 """
 
-from core.option_pricing import BlackScholesModel, MonteCarloPricing, BinomialTreeModel, Ticker
+from core.option_pricing import BlackScholesModel, MonteCarloPricing, BinomialTreeModel
+from core.util.ticker import Ticker
 
 # Fetching the prices from Yahoo Finance
 data = Ticker.get_historical_data('TSLA')
