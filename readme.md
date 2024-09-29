@@ -87,7 +87,7 @@ To run the application locally, follow these steps:
     ```bash
    cd quantst
 
-3. **Install Dependencies**
+3. **Install Dependencies** <br>
    Ensure you have Python 3.8 or later installed. Install the required packages using:
     ```bash
    pip3 install -r requirements.txt
