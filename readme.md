@@ -81,11 +81,11 @@ To run the application locally, follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/option-pricing-app.git
+   git clone https://github.com/derinmetcalfe/quantst.git
 
 2. **Navigate to the Project Directory**
     ```bash
-   cd option-pricing-app
+   cd quantst
 
 3. **Install Dependencies**
    Ensure you have Python 3.8 or later installed. Install the required packages using:
